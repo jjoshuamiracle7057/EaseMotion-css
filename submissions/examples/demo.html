@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Skew-Active Toast - EaseMotion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mt-layout">
+        <main class="mt-main">
+            <h1 class="mt-title">SYSTEM NOTIFICATIONS</h1>
+            <p class="mt-desc">Toggle the state to test the skew-active toast notification.</p>
+            
+            <div class="mt-toast-wrapper">
+                <input type="checkbox" id="mt-toast-toggle" class="mt-hidden-toggle" checked>
+                
+                <div class="mt-toast">
+                    <div class="mt-toast-indicator"></div>
+                    <div class="mt-toast-content">
+                        <span class="mt-toast-code">EVENT // 0x49F</span>
+                        <h4 class="mt-toast-heading">PIPELINE SYNCHRONIZED</h4>
+                    </div>
+                    <label for="mt-toast-toggle" class="mt-toast-close" tabindex="0">×</label>
+                </div>
+
+                <label for="mt-toast-toggle" class="mt-btn" tabindex="0">
+                    TOGGLE TOAST
+                </label>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
